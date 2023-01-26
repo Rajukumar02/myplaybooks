@@ -1,0 +1,8 @@
+---
+- name: This is for one more user
+  hosts: all
+  become: true
+  tasks:
+  - name: this is new user
+    user:
+      name: Hind 
